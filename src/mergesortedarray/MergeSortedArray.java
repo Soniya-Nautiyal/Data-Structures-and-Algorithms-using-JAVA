@@ -18,7 +18,7 @@ public class MergeSortedArray {
 		int totallength = array1.length + array2.length;
 
 		int[] mergedArray = new int[totallength];
-
+ 
 		int firstArrayPointer = 0;
 		int secondArrayPointer = 0;
 		int i = 0;
