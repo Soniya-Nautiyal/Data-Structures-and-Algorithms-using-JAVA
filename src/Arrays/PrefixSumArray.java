@@ -6,18 +6,18 @@ public class PrefixSumArray {
 		
 		//num=[10, 20, 10, 5, 15]
 		//output= [10, 30, 40, 45, 60]
-//		
-//		int[] prefix= new int[num.length];
-//		prefix[0]= num[0];
-//		
-//		for(int l =1 ; l < num.length ;l++ ) {
-//			prefix[l]= prefix[l-1]+num[l];
-//		}
-//		
-//		
-//		
-//		System.out.println(Arrays.toString(prefix));
-//		
+		
+		int[] prefix= new int[num.length];
+		prefix[0]= num[0];
+		
+		for(int l =1 ; l < num.length ;l++ ) {
+			prefix[l]= prefix[l-1]+num[l];
+		}
+		
+		
+		
+		System.out.println(Arrays.toString(prefix));
+		
 		
 		//approch 1
 		/*
@@ -59,7 +59,7 @@ public class PrefixSumArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] input = new int[]{-7, 1, 5, 2, -4, 3, 0};
+		int[] input = new int[]{1 , 2 , 3 , 4 , 5 , 5};
 		PrefixSumArray arr= new PrefixSumArray();
 		
 		
